@@ -337,9 +337,11 @@ class InteractiveMap:
         Raster(name, title=title, renderer=self._renderer, **kwargs).add_to(self.map)
 
     def add_layer_control(self, **kwargs):
-        """Add layer control to display"
-
-        Accepts keyword arguments to be passed to layer control object"""
+        """Add layer control to display.
+        
+        A Layer Control is added by default. Call this function to customize
+        layer control object. Accepts keyword arguments to be passed to leaflet
+        layer control object"""
 
         self.layer_control = True
         if self._folium:
