@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grassmods_ro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-04 10:56+0000\n"
+"POT-Creation-Date: 2026-09-02 14:42+0000\n"
 "PO-Revision-Date: 2025-03-12 12:06+0000\n"
 "Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: Romanian <https://weblate.osgeo.org/projects/grass-gis/grassmods/ro/>\n"
@@ -378,23 +378,25 @@ msgstr ""
 #: ../db/db.describe/main.c:54 ../db/db.describe/main.c:59
 #: ../general/g.mapset/main.c:173 ../raster/r.category/main.c:131
 #: ../raster/r.describe/dumplist.c:47 ../raster/r.proj/main.c:343
-#: ../raster/r.univar/stats.c:94 ../raster/r.univar/stats.c:323
-#: ../raster/r.what/main.c:280 ../vector/v.category/main.c:253
-#: ../vector/v.category/main.c:318 ../vector/v.info/print.c:859
+#: ../raster/r.univar/stats.c:96 ../raster/r.univar/stats.c:335
+#: ../raster/r.what.color/main.c:246 ../raster/r.what/main.c:280
+#: ../vector/v.category/main.c:253 ../vector/v.category/main.c:318
+#: ../vector/v.info/print.c:859
 msgid "Failed to initialize JSON array. Out of memory?"
 msgstr ""
 
 #: ../db/db.describe/main.c:140 ../general/g.proj/output.c:382
 #: ../general/g.region/main.c:940 ../raster/r.category/main.c:389
-#: ../raster/r.describe/dumplist.c:69 ../raster/r.info/main.c:845
+#: ../raster/r.describe/dumplist.c:69 ../raster/r.info/main.c:846
 #: ../raster/r.mask.status/main.c:111 ../raster/r.object.geometry/main.c:401
 #: ../raster/r.profile/main.c:276 ../raster/r.proj/main.c:368
 #: ../raster/r.proj/main.c:543 ../raster/r.report/prt_json.c:200
-#: ../raster/r.univar/stats.c:419 ../raster/r.what/main.c:619
-#: ../vector/v.category/main.c:305 ../vector/v.category/main.c:952
-#: ../vector/v.distance/main.c:1786 ../vector/v.info/main.c:106
-#: ../vector/v.info/print.c:284 ../vector/v.info/print.c:900
-#: ../vector/v.to.db/report.c:500 ../vector/v.univar/main.c:797
+#: ../raster/r.univar/stats.c:431 ../raster/r.what.color/main.c:290
+#: ../raster/r.what/main.c:619 ../vector/v.category/main.c:305
+#: ../vector/v.category/main.c:952 ../vector/v.distance/main.c:1786
+#: ../vector/v.info/main.c:106 ../vector/v.info/print.c:284
+#: ../vector/v.info/print.c:900 ../vector/v.to.db/report.c:500
+#: ../vector/v.univar/main.c:797
 msgid "Failed to initialize pretty JSON string."
 msgstr ""
 
@@ -1799,7 +1801,7 @@ msgstr ""
 #: ../raster/r.usler/main.c:52 ../raster/r.viewshed/main.cpp:103
 #: ../raster/r.volume/main.c:80 ../raster/r.walk/main.c:212
 #: ../raster/r.water.outlet/main.c:58 ../raster/r.watershed/front/main.c:75
-#: ../raster/r.what.color/main.c:88 ../raster/r.what/main.c:111
+#: ../raster/r.what.color/main.c:190 ../raster/r.what/main.c:111
 #: ../raster3d/r3.cross.rast/main.c:231 ../raster3d/r3.to.rast/main.c:259
 #: ../vector/v.neighbors/main.c:121 ../vector/v.sample/main.c:75
 #: ../vector/v.to.rast/main.c:47 ../vector/v.what.rast/main.c:72
@@ -1812,7 +1814,7 @@ msgstr "raster"
 #: ../locale/scriptstrings/t.rast.colors_to_translate.c:3
 #: ../raster/r.colors.out/raster3d_main.c:47
 #: ../raster/r.colors.out/raster_main.c:46 ../raster/r.colors/edit_colors.c:87
-#: ../raster/r.what.color/main.c:90 ../vector/v.colors.out/main.c:49
+#: ../raster/r.what.color/main.c:192 ../vector/v.colors.out/main.c:49
 #: ../vector/v.colors/main.c:58
 msgid "color table"
 msgstr ""
@@ -2409,7 +2411,8 @@ msgstr "Culoarea gridului"
 #: ../display/d.grid/main.c:93 ../display/d.grid/main.c:98
 #: ../display/d.grid/main.c:104 ../display/d.grid/main.c:110
 #: ../raster/r.colors.out/raster3d_main.c:64
-#: ../raster/r.colors.out/raster_main.c:63 ../vector/v.colors.out/main.c:74
+#: ../raster/r.colors.out/raster_main.c:63 ../raster/r.what.color/main.c:218
+#: ../vector/v.colors.out/main.c:74
 msgid "Color"
 msgstr "Culoare"
 
@@ -5081,7 +5084,7 @@ msgstr "poziție"
 #: ../locale/scriptstrings/v.rast.stats_to_translate.c:8
 #: ../locale/scriptstrings/v.what.strds_to_translate.c:6
 #: ../locale/scriptstrings/v.what.vect_to_translate.c:6
-#: ../raster/r.what.color/main.c:89 ../raster/r.what/main.c:112
+#: ../raster/r.what.color/main.c:191 ../raster/r.what/main.c:112
 #: ../vector/v.what.rast/main.c:74 ../vector/v.what.rast3/main.c:69
 #: ../vector/v.what/main.c:62
 msgid "querying"
@@ -5171,7 +5174,7 @@ msgstr ""
 #: ../raster/r.cross/main.c:101 ../raster/r.distance/parse.c:70
 #: ../raster/r.distance/parse.c:79 ../raster/r.fill.stats/main.c:1026
 #: ../raster/r.flow/flow_io.c:67 ../raster/r.flow/flow_io.c:245
-#: ../raster/r.geomorphon/memory.c:47 ../raster/r.info/main.c:123
+#: ../raster/r.geomorphon/memory.c:47 ../raster/r.info/main.c:124
 #: ../raster/r.kappa/main.c:173 ../raster/r.kappa/stats.c:33
 #: ../raster/r.kappa/stats.c:40 ../raster/r.mapcalc/map.c:514
 #: ../raster/r.mapcalc/map.c:812 ../raster/r.mapcalc/map3.c:712
@@ -5869,8 +5872,9 @@ msgstr ""
 #: ../general/g.mapset/main.c:117 ../general/g.mapsets/list.c:13
 #: ../general/g.proj/output.c:54 ../general/g.proj/output.c:360
 #: ../general/g.region/main.c:441 ../raster/r.describe/dumplist.c:37
-#: ../raster/r.proj/main.c:485 ../raster/r.univar/stats.c:152
-#: ../raster/r.univar/stats.c:341 ../vector/v.category/main.c:246
+#: ../raster/r.proj/main.c:485 ../raster/r.univar/stats.c:104
+#: ../raster/r.univar/stats.c:163 ../raster/r.univar/stats.c:353
+#: ../raster/r.what.color/main.c:52 ../vector/v.category/main.c:246
 #: ../vector/v.category/main.c:913 ../vector/v.info/print.c:817
 #: ../vector/v.info/print.c:853 ../vector/v.univar/main.c:609
 msgid "Failed to initialize JSON object. Out of memory?"
@@ -22522,10 +22526,10 @@ msgstr ""
 
 #: ../raster/r.info/main.c:118
 #, c-format
-msgid "Flags -%c and -%c/%c/%c are mutually exclusive"
+msgid "Flags -%c and -%c/%c/%c/%c are mutually exclusive"
 msgstr ""
 
-#: ../raster/r.info/main.c:369 ../raster/r.info/main.c:869
+#: ../raster/r.info/main.c:370 ../raster/r.info/main.c:870
 #: ../raster3d/r3.info/main.c:140 ../raster3d/r3.info/main.c:147
 #: ../raster3d/r3.info/main.c:152 ../raster3d/r3.info/main.c:157
 #: ../raster3d/r3.info/main.c:164 ../raster3d/r3.info/main.c:169
@@ -31698,24 +31702,36 @@ msgstr ""
 msgid "accum file missing in valid_basins()"
 msgstr ""
 
-#: ../raster/r.what.color/main.c:91
+#: ../raster/r.what.color/main.c:193
 msgid "Queries colors for a raster map layer."
 msgstr "Interoghează culorile pentru un strat raster."
 
-#: ../raster/r.what.color/main.c:100
+#: ../raster/r.what.color/main.c:202
 msgid "Values to query colors for"
 msgstr ""
 
-#: ../raster/r.what.color/main.c:107
-msgid "Output format (printf-style)"
+#: ../raster/r.what.color/main.c:210
+msgid "Output format ('plain', 'json', or printf-style string)"
 msgstr ""
 
-#: ../raster/r.what.color/main.c:111
+#: ../raster/r.what.color/main.c:211
+msgid "Output format printf-style is deprecated, use 'color_format' option instead."
+msgstr ""
+
+#: ../raster/r.what.color/main.c:216
+msgid "Color format for output values. Applies only when format is set to 'plain' or 'json'."
+msgstr ""
+
+#: ../raster/r.what.color/main.c:222
 msgid "Read values from stdin"
 msgstr ""
 
-#: ../raster/r.what.color/main.c:117
+#: ../raster/r.what.color/main.c:228
 msgid "Either \"-i\" or \"value=\" must be given"
+msgstr ""
+
+#: ../raster/r.what.color/main.c:255
+msgid "The printf-style output format is deprecated and will be removed in a future release. Please use the 'color_format' option instead, along with 'format=plain'."
 msgstr ""
 
 #: ../raster/r.what/main.c:115
